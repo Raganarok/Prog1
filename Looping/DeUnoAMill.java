@@ -5,7 +5,7 @@ public class DeUnoAMill extends Base
     {
         setName("Numeros impresos del 1 al mil");
         System.out.println("Ejercicio: "+getName());
-        for(int index = 0; index<=1000;index++)
+        for(int index = 1; index<=1000;index++)
         {
             System.out.print(index+"-");
         }
